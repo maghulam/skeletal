@@ -4,7 +4,7 @@ pipeline {
     stage('Buzz Build') {
       steps {
         echo 'Bee Buzz !'
-        echo '$BUZZ_NAME'
+        echo '${BUZZ_NAME}'
       }
     }
 
